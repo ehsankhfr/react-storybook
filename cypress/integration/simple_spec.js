@@ -1,4 +1,4 @@
-describe('My First Test', () => {
+describe('Cypress website', () => {
   it('Does not do much!', () => 
     expect(true).to.equal(true)
   );
@@ -13,4 +13,4 @@ describe('My First Test', () => {
       .type('fake@email.com')
       .should('have.value', 'fake@email.com')
   });
-});
+})
